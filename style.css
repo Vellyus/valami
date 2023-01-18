@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #A8E2FF;
+	font-family: 'Roboto';
+	color:blue;
+}
+
+#title {
+	background: #0098E1;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	box-shadow: #464646 2px 2px 16px;
+}
+
+#container {
+	width: 90%;
+	margin: auto;
+}
+
+ul {
+	margin-top: 40px;
+	margin-bottom: 25px;
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+ol {
+	text-align: center;
+	padding: 0;
+	max-width: 20px;
+	margin: auto;
+	margin-bottom: 25px;
+	margin-top: 40px;
+}
+
+/* magyarázd el a különböző selectorokat */
+ol li {
+	margin-top: 5px;
+}
+
+div {
+	text-align: center;
+}
+
+/* ezt kommenteld ki ha meg akarod mutatni a ul és ol közti különbséget */
+ul li {
+	display: inline-block;
+	background: #005680;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+ul li:hover {
+	background: #003162;
+}
+
+.kep {
+	width: 30%;
+	margin: 25px;
+	box-shadow: 2px 2px 8px #646464;
+}
+
+#kepek-tarto {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	border: 2px solid red;
+}
